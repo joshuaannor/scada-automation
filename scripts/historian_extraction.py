@@ -24,6 +24,9 @@ def process_data(data):
             print(f"⚠ Alert: High FlowRate detected at {row['timestamp']} ({value} L/min)")
         elif row['tag'] == "Temperature" and value > 90:
             print(f"⚠ Alert: High Temperature detected at {row['timestamp']} ({value}°C)")
+        elif row['tag'] == "Pressure" and value > 100:
+            print(f"⚠ Alert: Pressure Spike detected at {row['timestamp']} ({value} psi)")
+
         processed.append(row)
     return processed
 

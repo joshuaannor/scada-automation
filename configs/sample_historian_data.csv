@@ -6,3 +6,4 @@ timestamp,tag,value,unit
 2025-03-09 10:20:00,Pressure,80,psi
 2025-03-09 10:25:00,Temperature,45,C
 2025-03-09 10:30:00,Temperature,95,C
+2025-03-09 10:40:00,Pressure,105,psi
