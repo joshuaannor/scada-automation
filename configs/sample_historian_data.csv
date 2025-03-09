@@ -1,0 +1,8 @@
+timestamp,tag,value,unit
+2025-03-09 10:00:00,FlowRate,120,L/min
+2025-03-09 10:05:00,FlowRate,135,L/min
+2025-03-09 10:10:00,FlowRate,200,L/min
+2025-03-09 10:15:00,Pressure,60,psi
+2025-03-09 10:20:00,Pressure,80,psi
+2025-03-09 10:25:00,Temperature,45,C
+2025-03-09 10:30:00,Temperature,95,C
